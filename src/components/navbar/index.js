@@ -29,10 +29,10 @@ const NavBarComponent = () => {
                                 </li>
                                 <li className="diviser"></li>
                                 <li className="nav-item">
-                                    <Link to="subscribe" className="nav-link navigation" tabindex="-1" aria-disabled="true">Inscrever-se</Link>
+                                    <Link to="subscribe" className="nav-link navigation" tabIndex="-1" aria-disabled="true">Inscrever-se</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="login" className="nav-link navigation" tabindex="-1" aria-disabled="true">Entrar</Link>
+                                    <Link to="login" className="nav-link navigation" tabIndex="-1" aria-disabled="true">Entrar</Link>
                                 </li>
                             </ul>
                         </div>

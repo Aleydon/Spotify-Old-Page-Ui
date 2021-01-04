@@ -12,12 +12,16 @@ body {
 }
 
 
+
+
 .text {
     color: #fff;
     font-weight: bold;
     font-size: 100px;
     font-weight: 900;
     letter-spacing: -5;
+    margin-bottom: 50px;
+    margin-top: 160px;
 }
 
 
@@ -29,3 +33,18 @@ body {
 }
 
 
+
+/* 
+.home-cover .text-cover > .btn-free {
+    color: white;
+    border-radius: 500px;
+    background-color: #7c25f8;
+  
+}
+
+
+.home-cover .text-cover > .btn-premium {
+   border: 1px solid #fff;
+   border-radius: 500px;
+   color: #fff;
+} */
