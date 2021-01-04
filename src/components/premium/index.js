@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import './style.css';
 
 
 
@@ -8,7 +8,7 @@ import React from 'react';
 const PremiumComponent = () => {
     return(
         <>
-            <h3>Premium</h3>
+            <h3 className="text">Premium</h3>
         </>
     );
 }

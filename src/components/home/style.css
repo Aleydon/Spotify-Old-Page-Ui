@@ -1,6 +1,31 @@
 body {
-    border: solid 1px red;
     background: url('../../assets/img/capa.png'),
                 url('../../assets/img/ruido.png'),
-                linear-gradient(50deg,#ff4169, #7c26f8)
+                linear-gradient(50deg,#ff4169, #7c26f8);
+    background-attachment: fixed;
 }
+
+
+.home-cover {
+    display: table;
+    width: 100%;
+}
+
+
+.text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -5;
+}
+
+
+.text-cover {
+    text-align: center;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+

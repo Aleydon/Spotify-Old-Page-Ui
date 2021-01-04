@@ -3,6 +3,9 @@ import { BrowserRouter } from 'react-router-dom';
 
 import Routes from './components/routes';
 import NavBarComponent from './components/navbar';
+import FooterComponent from './components/footer';
+
+
 
 
 
@@ -11,7 +14,8 @@ const App = () => {
     <>
       <BrowserRouter>
           <NavBarComponent />
-          <Routes />
+            <Routes />
+          <FooterComponent />
       </BrowserRouter>
     </>
   );

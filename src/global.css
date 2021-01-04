@@ -1,0 +1,7 @@
+html, body, .home-cover {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import './style.css';
 
 
 
@@ -8,7 +8,7 @@ import React from 'react';
 const LoginComponent = () => {
     return(
         <>
-            <h3>Entrar</h3>
+            <h3 className="text">Entrar</h3>
         </>
     );
 }
