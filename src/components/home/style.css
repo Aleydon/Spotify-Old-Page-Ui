@@ -1,0 +1,6 @@
+body {
+    border: solid 1px red;
+    background: url('../../assets/img/capa.png'),
+                url('../../assets/img/ruido.png'),
+                linear-gradient(50deg,#ff4169, #7c26f8)
+}

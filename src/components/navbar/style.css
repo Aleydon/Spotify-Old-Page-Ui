@@ -1,0 +1,36 @@
+.img-header {
+    height: 80px;
+    width: 100%;
+    background: url('../../assets/img/capa.png'); 
+}
+
+
+.img-logo {
+    height: 150px;
+    width: 130px;
+}
+
+
+.nav-link .link {
+    color: #fff;
+}
+
+
+.diviser {
+    width: 1px;
+    height: 16px;
+    background: #fff;
+    margin: 12px 10px;
+}
+
+
+.navbar-dark .navbar-nav > li > .nav-link{
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.navbar-dark .navbar-nav > li > .nav-link:hover{
+    color: #9bf0e1;
+}
+
