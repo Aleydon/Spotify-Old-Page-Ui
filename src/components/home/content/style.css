@@ -1,0 +1,26 @@
+#aff {
+    background-color: #fff;
+    margin-top: 400px; 
+}
+
+
+.area {
+    padding: 40px;
+}
+
+
+
+.borda {
+    border: 1px solid red;
+}
+
+
+.borda2 {
+    border: 1px solid green;
+}
+
+ 
+img {
+    width: 400px;
+    height: 350px;
+} 
