@@ -10,29 +10,29 @@ import './style.css';
 const NavBarComponent = () => {
     return(
         <>
-            <nav className="navbar  navbar-inverse nav-bar-fixed-top navbar-expand-lg navbar-dark bg-dark img-header">
+            <nav className="navbar navbar-inverse fixed-top navbar-expand-lg navbar-dark bg-dark img-header">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/"><img className="img-logo" src={spotify} alt="logo"/></Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarHeader" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarHeader" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
                         <div className="collapse navbar-collapse" id="navBarHeader">
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <Link to="/premium"  className="nav-link navigation">Premium</Link>
+                                    <Link to="/premium"  className="nav-link navigation" aria-expanded="true">Premium</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="help" className="nav-link navigation">Ajuda</Link>
+                                    <Link to="help" className="nav-link navigation" aria-expanded="true">Ajuda</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="download" className="nav-link navigation">Baixar</Link>
+                                    <Link to="download" className="nav-link navigation" aria-expanded="true">Baixar</Link>
                                 </li>
-                                <li className="diviser"></li>
+                                <li className="diviser" aria-expanded="false"></li>
                                 <li className="nav-item">
-                                    <Link to="subscribe" className="nav-link navigation" tabIndex="-1" aria-disabled="true">Inscrever-se</Link>
+                                    <Link to="subscribe" className="nav-link navigation" aria-expanded="true">Inscrever-se</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="login" className="nav-link navigation" tabIndex="-1" aria-disabled="true">Entrar</Link>
+                                    <Link to="login" className="nav-link navigation" aria-expanded="true">Entrar</Link>
                                 </li>
                             </ul>
                         </div>

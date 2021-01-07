@@ -1,12 +1,13 @@
 .img-header {
-    height: 80px;
+    height: 80px; 
     width: 100%;
     background: url('../../assets/img/capa.png'); 
 }
 
 
 .img-logo {
-    height: 150px;
+    /* height: 150px;    */
+    height: 50px;
     width: 130px;
 }
 

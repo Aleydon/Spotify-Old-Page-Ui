@@ -1,0 +1,15 @@
+#resources {
+    padding: 20px 0px;
+}
+
+.border1 {
+    border: 1px solid green ;
+}
+
+.border2 {
+    border: 1px solid purple;
+}
+
+#resources h2, #resources h3, #resources p {
+    color: #fff;
+}
