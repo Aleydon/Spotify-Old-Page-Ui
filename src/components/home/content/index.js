@@ -1,6 +1,7 @@
 import React  from 'react';
 
 import ResourcesComponent from '../resourses';
+import FooterComponent from '../../footer';
 import imageone from '../../../assets/img/img1.jpg';
 import imagetwo from '../../../assets/img/img2.jpg';
 import imagethree from '../../../assets/img/img3.jpg';
@@ -53,6 +54,7 @@ const ContentHome = () => {
                 </div>
             </section>
             <ResourcesComponent />
+            <FooterComponent />
         </>
     );
 }
