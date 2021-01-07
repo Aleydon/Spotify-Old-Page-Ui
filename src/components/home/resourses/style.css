@@ -13,3 +13,28 @@
 #resources h2, #resources h3, #resources p {
     color: #fff;
 }
+
+#resources h3 {
+    color: #9bf0e1;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#resources h2 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.border1 {
+    border: 2px solid purple;
+}
+
+.rotation-image {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);      
+    -webkit-transform: rotate(30deg);
+}
+
+.iphone-image {
+    height: 850px;
+}
