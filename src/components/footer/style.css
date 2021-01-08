@@ -6,7 +6,38 @@ footer {
 }
 
 .logo {
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+} 
+
+#footer-component h4 {
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.nav li a {
     color: #fff;
-    height: 160px;
-    width: 160px;
+}
+
+footer .nav li a:hover {
+    color: #9bf0e1;
+}
+
+footer .nav li a {
+    text-decoration: none;
+}
+
+.list {
+    display: table;
+}
+
+.list .nav {
+    display: table-cell;
+}
+
+.image-social {
+    height: 200px;
+    width: 200px;
 }

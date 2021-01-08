@@ -23,36 +23,33 @@ const ContentHome = () => {
 
                             <div className="col-md-6">
                                 <img src={imageone} alt="image1" className="img-responsive img-cursor" />
-                                {/* <h3>huehue</h3> */}
                                 <img src={imagethree} alt="image2" className="img-responsive img-cursor" /> 
-                                {/* <h3>Fiu Fiu</h3> */}
                             </div>
 
                             <div className="col-md-6">
                                 <img src={imagetwo} alt="image3" className="img-responsive img-cursor" />
-                                {/* <h3>nyaanyaa</h3> */}
                                 <img src={imagefor} alt="image4" className="img-responsive img-cursor" /> 
-                                {/* <h3>Come on</h3> */}
                             </div>
                         </div>
                         </div>
 
 
                         <div className="col-md-6">
-                            <h1 className="title purple-text">O que o spotify tem?</h1>
+                            <h1 className="title purple-text">O que o spotify têm?</h1>
 
-                            <h2 className="sub-titles">Musicas</h2>
-                            <p>O Spotify tem milhoes de musicas. Escute seus sons favoritos, descubra novas musicas e reuna seus favoritos em um so lugar.</p>
+                            <h2 className="sub-titles">Músicas</h2>
+                            <p>O Spotify têm milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em um so lugar.</p>
 
                             <h2 className="sub-titles">Playlists</h2>
-                            <p>No Spotify voce encontra uma playlist para cada momento. Todas por fanaticos e especialistas da musica.</p>
+                            <p>No Spotify você encontra uma playlist para cada momento. Todas por fanáticos e especialistas da música.</p>
                             
-                            <h2 className="sub-titles">Novos Lancamentos</h2>
-                            <p>Escute os novos lancamentos de sim=ngles e albuns da semana e veja o que esta bombando no Top 50.</p>
+                            <h2 className="sub-titles">Novos Lançamentos</h2>
+                            <p>Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.</p>
                         </div>
                     </div>
                 </div>
             </section>
+            
             <ResourcesComponent />
             <FooterComponent />
         </>

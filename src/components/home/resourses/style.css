@@ -12,6 +12,7 @@
 
 #resources h2, #resources h3, #resources p {
     color: #fff;
+    padding-left: 37px;
 }
 
 #resources h3 {
@@ -37,4 +38,5 @@
 
 .iphone-image {
     height: 850px;
+    padding-left: 12px;
 }

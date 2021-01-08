@@ -14,16 +14,16 @@ const ResourcesComponent = () => {
         <div>
             <div className="row">
                 <div className="col-md-5">
-                    <h2>Facil</h2>
+                    <h2>Fácil</h2>
 
                     <h3>Buscar</h3>
-                    <p>ja sabe o que quer escutar? E so procurar e apertar o play.</p>
+                    <p>Já sabe o que quer escutar? É só procurar e apertar o play.</p>
 
                     <h3>Navegar</h3>
-                    <p>Veja os novos lancamentos, o que esta bombando nas paradas e as melhores playlists para o seu momento.</p>
+                    <p>Veja os novos Lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
 
                     <h3>Descobrir</h3>
-                    <p>Curta musicas novas toda segunda-feira com uma playlist personalizada para voce. Ou relaxe uma das radios.</p>
+                    <p>Curta músicas novas toda segunda-feira com uma playlist personalizada para você. Ou relaxe ouvindo uma das radios.</p>
                 </div>
 
                   <div className="col-md-7">
